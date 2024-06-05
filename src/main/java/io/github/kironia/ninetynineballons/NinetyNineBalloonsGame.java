@@ -22,6 +22,7 @@ import io.github.kironia.ninetynineballons.sound.GameSound;
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MidiUnavailableException;
 import javax.swing.*;
+import java.awt.*;
 import java.io.IOException;
 
 public class NinetyNineBalloonsGame {
@@ -34,6 +35,7 @@ public class NinetyNineBalloonsGame {
     private static void showGameFrame() {
         GameArtFrame artFrame = new GameArtFrame();
         artFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        artFrame.setBackground(Color.WHITE);
         artFrame.setSize(200, 400);
         artFrame.initGameObjects();
         artFrame.setVisible(true);
