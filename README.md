@@ -18,3 +18,7 @@ MIDI music, as well as a balloon-popping sound.
 ![game](game.png)
 ![summary](summary.png)
 
+## Jokes
+
+![README Jokes](https://readme-jokes.vercel.app/api?theme=react)
+
